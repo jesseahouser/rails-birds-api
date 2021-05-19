@@ -8,12 +8,21 @@
 
 Bird.create([
   {
-    name: "woodpecker"
+    name: "woodpecker",
+    tree: Tree.first
   },
   {
-    name: "ostrich"
+    name: "ostrich",
+    tree: Tree.first
   },
   {
-    name: "penguin"
+    name: "penguin",
+    tree: Tree.first
+  }
+])
+
+Tree.create([
+  {
+    name: "oak"
   }
 ])
